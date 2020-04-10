@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/paddingHeader">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/timeTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSizeHeader"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/periodTxt"
+                android:textSize="@dimen/textSizePeriod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alarmClockItem"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/enableBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:text="@string/deleteBtn"
+        android:id="@+id/deleteBtn"
+        android:background="@color/colorRed"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+</LinearLayout>

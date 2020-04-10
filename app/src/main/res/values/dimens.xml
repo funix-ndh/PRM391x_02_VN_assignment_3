@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeHeader">18sp</dimen>
+    <dimen name="textSizeItem">18sp</dimen>
+    <dimen name="paddingHeader">10dp</dimen>
+    <dimen name="textSizePeriod">10sp</dimen>
+</resources>
